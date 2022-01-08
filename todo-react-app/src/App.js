@@ -9,10 +9,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       //item: { id: 0, title: "Hello world 1", done: true },
-      items: [
-        { id: "0", title: "Hello World 1", done: true },
-        { id: "1", title: "Hello World 2", done: false },
-      ],
+      items: [],
     };
   }
 
